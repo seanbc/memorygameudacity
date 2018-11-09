@@ -10,4 +10,8 @@ If moves are less than 36, then get 2 Stars.
 Or else you get 1 Star.
 Click restart  at anytime to reset game.
 When you match all cards the game will finish and you will be given your score in moves, your no of stars, and the time it took to complete teh game
-Click replay to play again
+Click replay to play again.
+
+Dependencies: 
+Font awesome
+Google Fonts

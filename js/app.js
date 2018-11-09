@@ -129,9 +129,9 @@ function checkMatch () {
 
 // adds a new move
 function addMove () {
-      moves++;
       const newMove = document.querySelector('.moves');
       newMove.innerHTML = moves;
+      moves++;
 }
 
 // checks score and then calls the hidesStar function if applicable
@@ -231,6 +231,7 @@ function resetGame() {
          resetStars();
          resetCards();
          shuffleDeck();
+         toggledCards = [];
 }
 
 function resetClockandTime () {
